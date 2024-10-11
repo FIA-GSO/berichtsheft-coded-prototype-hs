@@ -1,0 +1,20 @@
+header {
+    background-color: #007bff; /* Blau */
+    color: #fff; /* Weiß */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    height: 100%;
+    width: auto;
+}
+
+.text {
+    /* Hier kannst du deinen Text stylen */
+}
