@@ -1,0 +1,11 @@
+.body {
+    font-family: Damascus, "Helvetica Neue", sans-serif;
+    font-size: 400px !important;
+}
+
+.footer {
+    background-color: #b4adad;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}

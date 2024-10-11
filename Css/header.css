@@ -1,20 +1,18 @@
-header {
-    background-color: #007bff; /* Blau */
-    color: #fff; /* Weiß */
-}
-
-.container {
+.container-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+    align-items: center; /* Zentriert Inhalte vertikal */
+    padding: 20px; /* Fügt etwas Abstand zu den Rändern hinzu */
 }
 
 .logo {
-    height: 100%;
-    width: auto;
+    /* Hier kannst du weitere Stile für dein Logo hinzufügen */
 }
 
-.text {
-    /* Hier kannst du deinen Text stylen */
+.navigation {
+    /* Hier kannst du weitere Stile für deine Navigation hinzufügen */
+}
+
+.btn-primary {
+    /* Hier kannst du den Stil deiner Schaltfläche anpassen */
 }

@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="de">
 <header>
-    <div class="container">
+    <div class="container-header">
         <div class="logo">
-            <img src="logo.png" width="500" height="600" alt="Logo">
+            <img src="/images/logo.png" alt="Logo">
         </div>
-        <div class="text">
-            <p class="h1">Meine coole Webseite</p>
+        <div class="navigation">
+            <button class="btn btn-primary">Login</button>
         </div>
     </div>
 </header>
+<hr style="border-color: darkblue;">
 <head>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ausbildungsnachweise</title>
@@ -27,26 +30,47 @@
 
     <h2>Letzten Einträge</h2>
 
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card mb-3">
-                <div class="card-body">
-                    <h5 class="card-title">16.09.2024</h5>
-                    <p class="card-text">Ausbildungsnachweis vom 9.09 bis 14.09<br>Hauptthemen der Woche waren...</p>
-                    <a href="#" class="btn btn-primary">Weiterlesen...</a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">16.09.2024</h5>
+                        <img class="card-img-top" src="/images/placeholder.png" alt="Placeholder Image">
+                        <p class="card-text">Ausbildungsnachweis vom 9.09 bis 14.09<br>Hauptthemen der Woche waren...</p>
+                        <a href="#" class="btn btn-primary">Weiterlesen...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">16.09.2024</h5>
+                        <img class="card-img-top" src="/images/placeholder.png" alt="Placeholder Image">
+                        <p class="card-text">Ausbildungsnachweis vom 9.09 bis 14.09<br>Hauptthemen der Woche waren...</p>
+                        <a href="#" class="btn btn-primary">Weiterlesen...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">16.09.2024</h5>
+                        <img class="card-img-top" src="/images/placeholder.png" alt="Placeholder Image">
+                        <p class="card-text">Ausbildungsnachweis vom 9.09 bis 14.09<br>Hauptthemen der Woche waren...</p>
+                        <a href="#" class="btn btn-primary">Weiterlesen...</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-4">
-        </div>
     </div>
 
-    <button class="btn btn-primary">Neue Eintrag</button>
+    <button class="btn btn-primary m-3">Neue Eintrag</button>
 
-    <hr>
 
+
+<footer>
     <h3>Ihr Pressekontakt</h3>
     <div class="row">
         <div class="col-md-6">
@@ -56,6 +80,8 @@
             <p><strong>Maxima Mustermann</strong><br>Unternehmenskommunikation<br>Tel.: 0221 567 567<br>max.mustermann@muster.de</p>
         </div>
     </div>
+</footer>
+
 </div>
 
 </body>
