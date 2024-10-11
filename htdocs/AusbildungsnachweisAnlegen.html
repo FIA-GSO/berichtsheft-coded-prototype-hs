@@ -11,25 +11,25 @@
         <h1 class="text-center">Neuen Bericht anlegen</h1>
         <form>
             <div class="form-group">
-                <label for="email">E-Mail*</label>
+                <label for="email">E-Mail<span class="text-danger">*</span> </label>
                 <input type="email" class="form-control" id="email" name="email" required>
             </div>
             <div class="row">
                 <div class="form-group col-md-6">
-                    <label for="datum_von">Datum von*</label>
+                    <label for="datum_von">Datum von<span class="text-danger">*</span></label>
                     <input type="date" class="form-control" id="datum_von" name="datum_von" required >
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="datum_bis">Datum bis*</label>
+                    <label for="datum_bis">Datum bis<span class="text-danger">*</span></label>
                     <input type="date" class="form-control" id="datum_bis" name="datum_bis" required>
                 </div>
             </div>
             <div class="form-group">
-                <label for="ausbilder">E-Mail Ausbilder*</label>
+                <label for="ausbilder">E-Mail Ausbilder<span class="text-danger">*</span></label>
                 <input type="email" class="form-control" id="ausbilder" name="ausbilder" required>
             </div>
             <div class="form-group">
-                <label for="ausbildungsjahr">Ausbildungsjahr*</label>
+                <label for="ausbildungsjahr">Ausbildungsjahr<span class="text-danger">*</span></label>
                 <select class="form-control" id="ausbildungsjahr" name="ausbildungsjahr" required>
                     <option value="">Bitte auswählen</option>
                     <option value="1">1. Jahr</option>
@@ -39,15 +39,15 @@
             </div>
             <div class="bg-light p-3 rounded mt-3">
                 <div class="form-group">
-                    <label for="schulische_taetigkeiten">Schulische Tätigkeiten*</label>
+                    <label class="text-primary" for="schulische_taetigkeiten" >Schulische Tätigkeiten<span class="text-danger">*</span></label>
                     <textarea class="form-control mt-2" id="schulische_taetigkeiten" name="schulische_taetigkeiten" rows="6" placeholder="Tätigkeiten beschreiben..." required></textarea>
                 </div>           
                 <div class="form-group">
-                    <label for="sonstige_taetigkeiten">Sonstige Tätigkeiten</label>
+                    <label class="text-primary" for="sonstige_taetigkeiten">Sonstige Tätigkeiten</label>
                     <textarea class="form-control mt-2" id="sonstige_taetigkeiten" name="sonstige_taetigkeiten" rows="6" placeholder="Tätigkeiten beschreiben..."></textarea>
                 </div>          
                 <div class="form-group">
-                    <label for="betriebliche_taetigkeiten">Betriebliche Tätigkeiten*</label>
+                    <label for="betriebliche_taetigkeiten" class="text-primary" >Betriebliche Tätigkeiten<span class="text-danger">*</span></label>
                     <textarea class="form-control mt-2" id="betriebliche_taetigkeiten" name="betriebliche_taetigkeiten" rows="6" placeholder="Tätigkeiten beschreiben..." required></textarea>
                 </div>
             </div>
