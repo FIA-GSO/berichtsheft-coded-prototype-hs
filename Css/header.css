@@ -3,16 +3,24 @@
     justify-content: space-between;
     align-items: center; /* Zentriert Inhalte vertikal */
     padding: 20px; /* Fügt etwas Abstand zu den Rändern hinzu */
-}
-
-.logo {
-    /* Hier kannst du weitere Stile für dein Logo hinzufügen */
+    background-color: #f8f8f8; /* Optional: Hintergrundfarbe für den Header */
 }
 
 .navigation {
-    /* Hier kannst du weitere Stile für deine Navigation hinzufügen */
+    display: flex;
+    gap: 15px; /* Abstand zwischen den Navigations-Links */
 }
 
+/* Beispiel für die primäre Schaltfläche */
 .btn-primary {
-    /* Hier kannst du den Stil deiner Schaltfläche anpassen */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Hover-Effekt für die Schaltfläche */
 }
